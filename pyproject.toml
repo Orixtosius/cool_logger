@@ -1,13 +1,15 @@
 [tool.poetry]
 name = "cool_logger"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Orixtosius <gultekin.omur@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-
+colorama = "0.4.6"
+pytest = "8.4.1"
+pytest-cov = "6.2.1"
 
 [build-system]
 requires = ["poetry-core"]
